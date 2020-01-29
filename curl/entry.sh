@@ -1,4 +1,4 @@
 #!/bin/bash
 
 command=$(cat $1 | xargs curl)
-echo $command | base64
+printf '%s' $command | base64
