@@ -6,5 +6,5 @@ functions:
   curl:
     lang: dockerfile
     handler: ./curl
-    image: bibarrav/curl:latest
+    image: bibarrav/openfaas-curl:latest
 
